@@ -1,0 +1,36 @@
+div.search-bar {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    .ant-divider {
+        font-size: 30px;
+        border: 0.5px solid black;
+        margin: 0px 10px;
+    }
+
+    svg {
+        width: 30px;
+        height: 30px;
+
+        &.instagram-word {
+            width: 110px;
+            margin-top: 6px;
+        }
+
+    }
+
+    .heart-icon {
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+
+
+    .search-box {
+        display: flex;
+        width: 458px;
+        justify-content: center;
+    }
+}
